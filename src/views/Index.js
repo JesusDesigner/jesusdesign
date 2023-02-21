@@ -31,10 +31,8 @@ export default function Index() {
                   <h1 className="text-white font-semibold text-5xl">
                     D'JESUS DESIGNER
                   </h1>
-                  <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                  <p className="mt-4 text-lg text-blueGray-200">DESENVOLVIMENTO DE WEB SITES<br/>
+                  Web Designer é o profissional que planeja, desenvolve e realiza manutenção em sites e aplicações de Internet.
                   </p>
                 </div>
               </div>
@@ -192,7 +190,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://images.unsplash.com/photo-1555212697-194d092e3b8f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80"
+                  src="https://i.pinimg.com/originals/73/8b/d4/738bd452082fcb3c66fad6f40172d062.jpg"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -200,7 +198,7 @@ export default function Index() {
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">A growing company</h3>
+                  <h3 className="text-3xl font-semibold">SETUP</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
                     The extension comes with three pre-built pages to help you
                     get started faster. You can change the text and images and
