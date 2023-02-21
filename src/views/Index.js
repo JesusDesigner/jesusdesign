@@ -72,8 +72,7 @@ export default function Index() {
                     </div>
                     <h6 className="text-xl font-semibold">WORDPRESS</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Divide details about your product or agency work into
-                      parts. A paragraph describing a feature will be enough.
+                    Sites Institucionais para a sua empresa,Lojas virtuais, Landing pages desenvolvidos com ELEMENTOR.
                     </p>
                   </div>
                 </div>
@@ -87,8 +86,7 @@ export default function Index() {
                     </div>
                     <h6 className="text-xl font-semibold">FRONT-END</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Keep you user engaged by providing meaningful information.
-                      Remember that by this time, the user is curious.
+                    Uma das principais funções de uma pessoa programadora front-end é a de criar páginas para a web. Para isso, ela precisa utilizar HTML, CSS e JavaScript, principalmente.
                     </p>
                   </div>
                 </div>
@@ -102,8 +100,7 @@ export default function Index() {
                     </div>
                     <h6 className="text-xl font-semibold">DESIGN GRÁFICO</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Write a few lines about each one. A paragraph describing a
-                      feature will be enough. Keep you user engaged!
+                    O designer vai ser responsável por criar projetos de comunicação visual, como logotipos e panfletos. Também pode desenvolver produtos e embalagens, criar sites e até animações
                     </p>
                   </div>
                 </div>
