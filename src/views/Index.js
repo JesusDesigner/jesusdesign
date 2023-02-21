@@ -190,7 +190,7 @@ export default function Index() {
                 <img
                   alt="..."
                   className="max-w-full rounded-lg shadow-lg"
-                  src="https://i.pinimg.com/originals/73/8b/d4/738bd452082fcb3c66fad6f40172d062.jpg"
+                  src="https://i.pinimg.com/originals/5c/03/f3/5c03f3e28475afe7db45e140fc0c6025.jpg"
                 />
               </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
