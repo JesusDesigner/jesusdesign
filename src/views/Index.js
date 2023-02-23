@@ -32,7 +32,7 @@ export default function Index() {
                     D'JESUS DESIGNER
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">DESENVOLVIMENTO DE WEB SITES<br/>
-                  Web Designer é o profissional que planeja, desenvolve e realiza manutenção em sites e aplicações de Internet.
+                  Web designer especialista em criação de sites planejamento, desenvolvimento e realização manutenção em sites e aplicações de Internet.
                   </p>
                 </div>
               </div>
@@ -111,12 +111,11 @@ export default function Index() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                  Working with us is a pleasure
+                 JJJ
                 </h3>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                  Don't let your uses guess by attaching tooltips and popoves to
-                  any element. Just make sure you enable them first via
-                  JavaScript.
+                Criação de Sites Planejamento e criação de websites responsivos de alta qualidade. 
+                Web designer especialista em criação de sites
                 </p>
                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
                   The kit comes with three pre-built pages to help you get
@@ -149,12 +148,10 @@ export default function Index() {
                       ></polygon>
                     </svg>
                     <h4 className="text-xl font-bold text-white">
-                      Top Notch Services
+                      Web designer
                     </h4>
                     <p className="text-md font-light mt-2 text-white">
-                      The Arctic Ocean freezes every winter and much of the
-                      sea-ice then thaws every summer, and that process will
-                      continue whatever happens.
+                    O profissional que estuda web design é então chamado de web designer, que é responsável por projetar e desenhar web sites, blogs, sistemas e aplicativos web. Seu papel é criar a interface gráfica do site, onde ocorrerá toda interação do usuário,
                     </p>
                   </blockquote>
                 </div>
@@ -198,11 +195,9 @@ export default function Index() {
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">SETUP</h3>
+                  <h3 className="text-3xl font-semibold">DESENVOLVIMENTO</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    The extension comes with three pre-built pages to help you
-                    get started faster. You can change the text and images and
-                    you're good to go.
+                    Home station,
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
