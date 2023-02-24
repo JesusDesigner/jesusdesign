@@ -32,7 +32,7 @@ export default function Index() {
                     D'JESUS DESIGNER
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">DESENVOLVIMENTO DE WEB SITES<br/>
-                  Web designer especialista em criação de sites planejamento, desenvolvimento e realização manutenção em sites e aplicações de Internet.
+                  Web designer especialista em criação de sites planejamento, desenvolvimento e realização de manutenção em sites e aplicações de Internet.
                   </p>
                 </div>
               </div>
@@ -110,20 +110,17 @@ export default function Index() {
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
-                <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                 JJJ
-                </h3>
+                <h1 className="text-3xl mb-2 font-semibold leading-normal">
+                Criação de Sites
+                </h1>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Criação de Sites Planejamento e criação de websites responsivos de alta qualidade. 
                 Web designer especialista em criação de sites
                 </p>
-                <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                  The kit comes with three pre-built pages to help you get
-                  started faster. You can change the text and images and you're
-                  good to go. Just make sure you enable them first via
-                  JavaScript.
-                </p>
-                <Link to="/" className="font-bold text-blueGray-700 mt-8">
+                <h2 className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-800">
+                Se você deseja aumentar o número de clientes ou precisa potencializar a presença da sua empresa na internet, solicite um orçamento sem compromisso.
+                </h2>
+                <Link to="/profile" className="font-bold text-blueGray-700 mt-8">
                   Check Notus React!
                 </Link>
               </div>
@@ -197,7 +194,7 @@ export default function Index() {
                   </div>
                   <h3 className="text-3xl font-semibold">DESENVOLVIMENTO</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Home station,
+                    Home station, O trabalho freelancer tende a ser mais dinâmico, por permitir variar a rotina, alterando, inclusive, o local de onde se trabalha, que pode ser tanto na empresa tomadora do serviço, em coworkings (espaços com estrutura de escritório compartilhados por profissionais autônomos e por pequenas empresas, que alugam salas ou mesas por períodos, dias ou meses), em casa (home office), em cafés, bibliotecas ou outros ambientes.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -261,6 +258,102 @@ export default function Index() {
                 </p>
               </div>
             </div>
+            <section className="block relative z-1 bg-blueGray-600">
+        <div className="container mx-auto">
+          <div className="justify-center flex flex-wrap">
+            <div className="w-full lg:w-12/12 px-4  -mt-24">
+              <div className="flex flex-wrap">
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Login Page
+                  </h5>
+                  <Link to="/auth/login">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/portalpor.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Profile Page
+                  </h5>
+                  <Link to="/profile">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/sociosit.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Profile Page
+                  </h5>
+                  <Link to="/profile">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/BANNER.jpg").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Profile Page
+                  </h5>
+                  <Link to="/profile">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/BANNER.jpg").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Profile Page
+                  </h5>
+                  <Link to="/profile">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/nego.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+
+                <div className="w-full lg:w-4/12 px-4">
+                  <h5 className="text-xl font-semibold pb-4 text-center">
+                    Landing Page
+                  </h5>
+                  <Link to="/landing">
+                    <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
+                      <img
+                        alt="..."
+                        className="align-middle border-none max-w-full h-auto rounded-lg"
+                        src={require("assets/img/socios.png").default}
+                      />
+                    </div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><br></br>
             <div className="flex flex-wrap">
               <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
@@ -270,7 +363,7 @@ export default function Index() {
                     className="shadow-lg rounded-full mx-auto max-w-120-px"
                   />
                   <div className="pt-6 text-center">
-                    <h5 className="text-xl font-bold">Ryan Tompson</h5>
+                    <h5 className="text-xl font-bold">Jesus Pereira</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Web Developer
                     </p>
