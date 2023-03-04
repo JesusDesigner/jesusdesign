@@ -250,11 +250,9 @@ export default function Index() {
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
-                <h2 className="text-4xl font-semibold">Portiflio</h2>
+                <h2 className="text-4xl font-semibold">Portifólio</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Portifólio e serviços
                 </p>
                 
               </div>
@@ -266,9 +264,14 @@ export default function Index() {
             <div className="w-full lg:w-12/12 px-4  -mt-24">
               <div className="flex flex-wrap">
                 <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
-                    Login Page
-                  </h5>
+                  <h2 className="text-xl font-semibold pb-4 text-center">
+                  <a
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="https://diasmacedo.com.br/"
+                    >
+                      Visite o Site Portal Dias Macedo
+                    </a>
+                  </h2>
                   <Link to="/auth/login">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
@@ -281,32 +284,44 @@ export default function Index() {
                 </div>
 
                 <div className="w-full lg:w-4/12 px-4">
-                  <h5 className="text-xl font-semibold pb-4 text-center">
-                    Profile Page
-                  </h5>
-                  <Link to="/profile">
+                  <h3 className="text-xl font-semibold pb-4 text-center">
+                  <a
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="https://www.creative-tim.com/presentation?ref=nr-footer"
+                    >
+                      Visite o Site Sócios Sushi
+                    </a>
+                  </h3>
+                 
+                  
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
                         src={require("assets/img/sociosit.png").default}
-                      />
+                        
+                      /> 
                     </div>
-                  </Link>
+                  
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Profile Page
+                  <a
+                      className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                      href="https://www.creative-tim.com/presentation?ref=nr-footer"
+                    >
+                      Visite o Site Ondemand Contabil
+                    </a>
                   </h5>
-                  <Link to="/profile">
+                 
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
                         className="align-middle border-none max-w-full h-auto rounded-lg"
-                        src={require("assets/img/BANNER.jpg").default}
+                        src={require("assets/img/ondemand.png").default}
                       />
                     </div>
-                  </Link>
+                 
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
