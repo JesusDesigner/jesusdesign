@@ -121,7 +121,7 @@ export default function Index() {
                 Se você deseja aumentar o número de clientes ou precisa potencializar a presença da sua empresa na internet, solicite um orçamento sem compromisso.
                 </h2>
                 <Link to="/profile" className="font-bold text-blueGray-700 mt-8">
-                  Check Notus React!
+                  Meu Potifólio
                 </Link>
               </div>
 
@@ -287,7 +287,7 @@ export default function Index() {
                   <h3 className="text-xl font-semibold pb-4 text-center">
                   <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=nr-footer"
+                      href="https://sociossuchi.wixsite.com/sushi"
                     >
                       Visite o Site Sócios Sushi
                     </a>
@@ -308,7 +308,7 @@ export default function Index() {
                   <h5 className="text-xl font-semibold pb-4 text-center">
                   <a
                       className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation?ref=nr-footer"
+                      href="http://ondemand.42web.io/"
                     >
                       Visite o Site Ondemand Contabil
                     </a>
