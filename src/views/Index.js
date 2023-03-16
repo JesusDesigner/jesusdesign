@@ -70,7 +70,7 @@ export default function Index() {
                     </div>
                     <h6 className="text-xl font-semibold">WORDPRESS</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                    Sites Institucionais para a sua empresa,Lojas virtuais, Landing pages desenvolvidos com ELEMENTOR.
+                    Sites Institucionais para a sua empresa, Lojas virtuais, Landing pages desenvolvidos com ELEMENTOR.
                     </p>
                   </div>
                 </div>
@@ -248,6 +248,82 @@ Imersão de Inteligência emocional Método Evo Presencial
             </div>
           </div>
         </section>
+        <div className="container mx-auto px-4 pb-32 pt-48">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
+              <div className="md:pr-12">
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                  <i className="fas fa-file-alt text-xl"></i>
+                </div>
+                <h3 className="text-3xl font-semibold">
+                  Complex Documentation
+                </h3>
+                <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
+                  This extension comes a lot of fully coded examples that help
+                  you get started faster. You can adjust the colors and also the
+                  programming language. You can change the text and images and
+                  you're good to go.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="fas fa-fingerprint"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Built by Developers for Developers
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="fab fa-html5"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Carefully crafted code for Components
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blueGray-500 bg-blueGray-50 mr-3">
+                          <i className="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-blueGray-500">
+                          Dynamic Javascript Components
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src={require("assets/img/documentation.png").default}
+              />
+            </div>
+          </div>
+        </div>
 
         <section className="pt-20 pb-48">
           <div className="container mx-auto px-4">
@@ -447,12 +523,10 @@ Imersão de Inteligência emocional Método Evo Presencial
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold text-white">
-                  Build something
+                Crie seu Website!
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                  Put the potentially record low maximum sea ice extent tihs
-                  year down to low ice. According to the National Oceanic and
-                  Atmospheric Administration, Ted, Scambos.
+                Se a intenção é valorizar a sua empresa, ter um site, com um domínio próprio, aumenta o valor percebido por seus clientes. As empresas que aparecem somente nas redes sociais, ainda passam a ideia de não profissionais, ou em início de atividade. 
                 </p>
               </div>
             </div>
@@ -514,12 +588,12 @@ Imersão de Inteligência emocional Método Evo Presencial
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                         htmlFor="full-name"
                       >
-                        Full Name
+                       Nome
                       </label>
                       <input
                         type="text"
                         className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                        placeholder="Full Name"
+                        placeholder="Digite seu Nome"
                       />
                     </div>
 
@@ -542,7 +616,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                         className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                         htmlFor="message"
                       >
-                        Message
+                        Messagem
                       </label>
                       <textarea
                         rows="4"
@@ -556,7 +630,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                         className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
-                        Send Message
+                       Enviar Messagem
                       </button>
                     </div>
                   </div>
