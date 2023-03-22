@@ -100,11 +100,11 @@ export default function Profile() {
                   </h3>
                   <div className="text-sm leading-normal mt-0 mb-2 text-blueGray-400 font-bold uppercase">
                     <i className="fas fa-map-marker-alt mr-2 text-lg text-blueGray-400"></i>{" "}
-                    Los Angeles, California
+                    Fortaleza-CE
                   </div>
                   <div className="mb-2 text-blueGray-600 mt-10">
                     <i className="fas fa-briefcase mr-2 text-lg text-blueGray-400"></i>
-                    Solution Manager - Creative Tim Officer
+                    Desenvolvimento de Web sites.
                   </div>
                   <div className="mb-2 text-blueGray-600">
                     <i className="fas fa-university mr-2 text-lg text-blueGray-400"></i>
@@ -115,11 +115,18 @@ export default function Profile() {
                   <div className="flex flex-wrap justify-center">
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
-                        An artist of considerable range, Jenna the name taken by
-                        Melbourne-raised, Brooklyn-based Nick Murphy writes,
-                        performs and records all of his own music, giving it a
-                        warm, intimate feel with a solid groove structure. An
-                        artist of considerable range.
+                      <h1>Formação:</h1>
+<ol>
+<li>Graduação Tecnológica</li>
+<li>Web design e web master, Universidade vale do acaraú.</li>
+<li>Desenvolvimento e manutenção de Websites.</li>
+<li>Web design: CEPEP.</li>
+<li>Cursando Front-end: IWTRAINING/PIXELS.</li>
+<li>Imersão Dayse UI Tailwind: IWTRAINING/PIXELS.</li>
+<li>Imersão UI/UX Design: Digital College.</li>
+<li>Imersão Inteligência Emocional: Metodo EVO.(Presencial)</li>
+
+</ol>
                       </p>
                       <a
                         href="#pablo"

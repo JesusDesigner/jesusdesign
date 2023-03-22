@@ -110,8 +110,8 @@ export default function Index() {
                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
-                <h1 className="text-3xl mb-2 font-semibold leading-normal">
-                Criação de Sites
+                <h1 className="text-3xl mb-2 font-bold leading-normal font-bold text-blueGray-700 mt-8">
+               Desenvolvimento de Sites
                 </h1>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Criação de Sites Planejamento e criação de websites responsivos de alta qualidade. 
