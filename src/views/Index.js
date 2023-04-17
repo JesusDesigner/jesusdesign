@@ -111,7 +111,7 @@ export default function Index() {
                   <i className="fas fa-user-friends text-xl"></i>
                 </div>
                 <h1 className="text-3xl mb-2 font-bold leading-normal font-bold text-blueGray-700 mt-8">
-               Desenvolvimento de Sites
+               Desenvolvedor
                 </h1>
                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
                 Criação de Sites Planejamento e criação de websites responsivos de alta qualidade. 
@@ -121,12 +121,12 @@ export default function Index() {
                 Se você deseja aumentar o número de clientes ou precisa potencializar a presença da sua empresa na internet, solicite um orçamento sem compromisso.
                 </h2>
                 <Link to="/profile" className="font-bold text-blueGray-700 mt-8">
-                  Meu Potifólio
+                  Meu Perfil
                 </Link>
               </div>
 
               <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
+                <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-600">
                   <img
                     alt="..."
                     src="https://i.pinimg.com/originals/9d/09/4b/9d094ba2a5b183bb3df11c4ca373ca46.jpg"
@@ -183,13 +183,17 @@ Imersão de Inteligência emocional Método Evo Presencial
 
           <div className="container mx-auto px-4">
             <div className="items-center flex flex-wrap">
-              <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-                <img
-                  alt="..."
-                  className="max-w-full rounded-lg shadow-lg"
-                  src="https://i.pinimg.com/originals/5c/03/f3/5c03f3e28475afe7db45e140fc0c6025.jpg"
-                />
-              </div>
+            <div className="w-full md:w-6/12 mr-auto px-4 pt-24 md:pt-0">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-xl"
+                style={{
+                  transform:
+                    "scale(1) perspective(1040px) rotateY(-11deg) rotateX(2deg) rotate(2deg)",
+                }}
+                src={require("assets/img/foguetem.png").default}
+              />
+            </div>
               <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
                 <div className="md:pr-12">
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
@@ -197,7 +201,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                   </div>
                   <h3 className="text-3xl font-semibold">DESENVOLVIMENTO</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Home station, O trabalho freelancer tende a ser mais dinâmico, por permitir variar a rotina, alterando, inclusive, o local de onde se trabalha, que pode ser tanto na empresa tomadora do serviço, em coworkings (espaços com estrutura de escritório compartilhados por profissionais autônomos e por pequenas empresas, que alugam salas ou mesas por períodos, dias ou meses), em casa (home office), em cafés, bibliotecas ou outros ambientes.
+                    Na minha Home station, trabalho como freelancer.
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -252,18 +256,18 @@ Imersão de Inteligência emocional Método Evo Presencial
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-5/12 ml-auto px-12 md:px-4">
               <div className="md:pr-12">
-                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
+                <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-dark-blue">
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                  Complex Documentation
+                 Serviços
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                Criação de sites, Landing Pages, Criação de Logo, Criação de Loja Virtual, Redes Sociais, E-mail Marketing, Material Gráfico, Edição de Videos, Marketing Digital e Otimização de sites SEO.
                 </p>
+                <Link to="/servicos" className="font-bold text-blueGray-700 mt-8">
+                  Servicos
+                </Link>
                 <ul className="list-none mt-6">
                   <li className="py-2">
                     <div className="flex items-center">
@@ -274,7 +278,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Built by Developers for Developers
+                          Sites dinamicos e responsivos.
                         </h4>
                       </div>
                     </div>
@@ -288,7 +292,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Carefully crafted code for Components
+                          Criação e gerenciamento de conteúdos para redes sociais.
                         </h4>
                       </div>
                     </div>
@@ -302,7 +306,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Dynamic Javascript Components
+                          Front-End: html, css, JavaScript e React
                         </h4>
                       </div>
                     </div>
@@ -329,6 +333,7 @@ Imersão de Inteligência emocional Método Evo Presencial
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">
+              <i className="fas fa-rocket color-blue text-xl"></i>
                 <h2 className="text-4xl font-semibold">Portifólio</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
                   Portifólio e serviços
@@ -404,9 +409,9 @@ Imersão de Inteligência emocional Método Evo Presencial
                 </div>
                 <div className="w-full lg:w-4/12 px-4">
                   <h5 className="text-xl font-semibold pb-4 text-center">
-                    Profile Page
+                    Pagina de Perfil
                   </h5>
-                  <Link to="/profile">
+                  <Link to="/servicos">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -435,7 +440,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                   <h5 className="text-xl font-semibold pb-4 text-center">
                     Landing Page
                   </h5>
-                  <Link to="/landing">
+                  <Link to="/servicos">
                     <div className="hover:-mt-4 relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg ease-linear transition-all duration-150">
                       <img
                         alt="..."
@@ -449,20 +454,29 @@ Imersão de Inteligência emocional Método Evo Presencial
             </div>
           </div>
         </div>
-      </section><br></br>
-            <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-                <div className="px-6">
+      </section><br></br><div className="container relative mx-auto">
+            <div className="items-center flex flex-wrap">
+              <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+                <div className="pr-12">
+                  <h1 className="text-Black font-bold text-5xl">
+                    D'JESUS DESIGNER
+                  </h1>
+                  <p className="mt-4 text-lg text-black-200">DESENVOLVIMENTO DE WEB SITES<br/>
+                  Web designer especialista em criação de sites planejamento, desenvolvimento e realização de manutenção em sites e aplicações de Internet.
+                  </p>
+                  <div className="px-6">
                   <img
                     alt="..."
                     src={require("assets/img/team-1-800x800.jpg").default}
-                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                    className="shadow-lg rounded-full mx-auto max-w-420-px"
                   />
                   <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">Jesus Pereira</h5>
                     <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
                       Web Developer, UI/UX Designer.
-                    </p>
+                    </p> <span class="ml-2 text-gray-400 text-md">
+                User of Tail-Kit
+            </span>
                     <div className="mt-6">
                       <button
                         className="bg-lightBlue-400 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
@@ -492,9 +506,13 @@ Imersão de Inteligência emocional Método Evo Presencial
                   </div>
                 </div>
               </div>
-             
                 
+              </div>
             </div>
+          </div>
+           
+                             
+            
           </div>
         </section>
 
@@ -522,12 +540,13 @@ Imersão de Inteligência emocional Método Evo Presencial
           <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
+              <i className="fas fa-rocket color-blue text-xl"></i>
                 <h2 className="text-4xl font-semibold text-white">
                 Crie seu Website!
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
                 Se a intenção é valorizar a sua empresa, ter um site, com um domínio próprio, aumenta o valor percebido por seus clientes. As empresas que aparecem somente nas redes sociais, ainda passam a ideia de não profissionais, ou em início de atividade. 
-                </p>
+                </p><hr/>
               </div>
             </div>
             <div className="flex flex-wrap mt-12 justify-center">
@@ -536,11 +555,10 @@ Imersão de Inteligência emocional Método Evo Presencial
                   <i className="fas fa-medal text-xl"></i>
                 </div>
                 <h6 className="text-xl mt-5 font-semibold text-white">
-                  Excelent Services
+               TENHA MAIS VISIBILIDADE
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Tendo a sua empresa um site, ela concorrerá diretamente no Google e em outras plataformas com outras empresas, dispondo de uma concorrência positiva
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -548,11 +566,11 @@ Imersão de Inteligência emocional Método Evo Presencial
                   <i className="fas fa-poll text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Grow your market
+                PROMOVER SUAS VENDAS.
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Promovendo sua marca no Google e nas redes sociais, 
+                consequentemente as chances de atrair mais visitantes para conhecer o seu negócio através do site, 
                 </p>
               </div>
               <div className="w-full lg:w-3/12 px-4 text-center">
@@ -560,11 +578,11 @@ Imersão de Inteligência emocional Método Evo Presencial
                   <i className="fas fa-lightbulb text-xl"></i>
                 </div>
                 <h5 className="text-xl mt-5 font-semibold text-white">
-                  Launch time
+                  IMPULCIONAR A SUA MARCA
                 </h5>
                 <p className="mt-2 mb-4 text-blueGray-400">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                Ter um site facilita restringir um lugar com conteúdos específicos e observar a interação do seu público, 
+                impulsionando assim a sua marca.
                 </p>
               </div>
             </div>
@@ -576,61 +594,27 @@ Imersão de Inteligência emocional Método Evo Presencial
               <div className="w-full lg:w-6/12 px-4">
                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                   <div className="flex-auto p-5 lg:p-10">
-                    <h4 className="text-2xl font-semibold">
-                      Want to work with us?
+                    <h4 className="text-2xl font-bold">
+                      Deseja solicitar algum serviço?
                     </h4>
-                    <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                      Complete this form and we will get back to you in 24
-                      hours.
+                    <p className="leading-relaxed mt-1 mb-4 text-black-500">
+                      Entre em contato comigo por email ou se prefirir envia um WhattsApp.
                     </p>
-                    <div className="relative w-full mb-3 mt-8">
-                      <label
-                        className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                        htmlFor="full-name"
+                                       
+                    <div className="text-center mt-6">
+                      <button
+                        className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                        type="button"
                       >
-                       Nome
-                      </label>
-                      <input
-                        type="text"
-                        className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                        placeholder="Digite seu Nome"
-                      />
-                    </div>
-
-                    <div className="relative w-full mb-3">
-                      <label
-                        className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                        htmlFor="email"
-                      >
-                        Email
-                      </label>
-                      <input
-                        type="email"
-                        className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                        placeholder="Email"
-                      />
-                    </div>
-
-                    <div className="relative w-full mb-3">
-                      <label
-                        className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
-                        htmlFor="message"
-                      >
-                        Messagem
-                      </label>
-                      <textarea
-                        rows="4"
-                        cols="80"
-                        className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                        placeholder="Type a message..."
-                      />
+                       Enviar Email
+                      </button>
                     </div>
                     <div className="text-center mt-6">
                       <button
                         className="bg-blueGray-800 text-white active:bg-blueGray-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
                         type="button"
                       >
-                       Enviar Messagem
+                       Enviar WhattsApp
                       </button>
                     </div>
                   </div>

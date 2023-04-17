@@ -124,12 +124,13 @@ export default function Profile() {
 <li>Cursando Front-end: IWTRAINING/PIXELS.</li>
 <li>Imersão Dayse UI Tailwind: IWTRAINING/PIXELS.</li>
 <li>Imersão UI/UX Design: Digital College.</li>
+<li>Imersão Criação de conteúdo de Mídias Sociais: Digital College.</li>
 <li>Imersão Inteligência Emocional: Metodo EVO.(Presencial)</li>
 
 </ol>
                       </p>
                       <a
-                        href="#pablo"
+                        href="/servicos"
                         className="font-normal text-lightBlue-500"
                         onClick={(e) => e.preventDefault()}
                       >

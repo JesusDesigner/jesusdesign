@@ -83,7 +83,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.github.com/creativetimofficial?ref=nr-footer"
+                        src="jesusdesigner@outlook.com"
                       >
                         Email
                       </a>
@@ -91,7 +91,7 @@ export default function Footer() {
                     <li>
                       <a
                         className="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="https://www.creative-tim.com/bootstrap-themes/free?ref=nr-footer"
+                        href="https://api.whatsapp.com/send?phone=5585988452885&text=Jesus_Pereira"
                       >
                       WhattsApp
                       </a>
