@@ -105,13 +105,12 @@ export default function Blog() {
                   <i className="fas fa-file-alt text-xl"></i>
                 </div>
                 <h3 className="text-3xl font-semibold">
-                 Serviços
+                 Web designer
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                  This extension comes a lot of fully coded examples that help
-                  you get started faster. You can adjust the colors and also the
-                  programming language. You can change the text and images and
-                  you're good to go.
+                O profissional que estuda web design é então chamado de web designer, que é responsável por projetar e desenhar web sites, blogs, sistemas e aplicativos web.
+Seu papel é criar a interface gráfica do site, onde ocorrerá toda interação do usuário, portanto é importante
+que o web designer tenha em mente atributos como: facilidade de uso do site e emoções que o design pode despertar no usuário, dessa forma seu design será mais eficiente. Podemos comparar o designer a um artista.
                 </p>
                 <ul className="list-none mt-6">
                   <li className="py-2">

@@ -123,6 +123,39 @@ const PagesDropdown = () => {
         >
           Meu Perfil
         </Link>
+<Link
+          to="/portifolio"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+        >
+          Portifolio
+        </Link>
+<Link
+          to="/servicos"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+        >
+          Serviços
+        </Link>
+<Link
+          to="/blog"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+        >
+          Blog
+        </Link>
+<Link
+          to="/profile"
+          className={
+            "text-sm py-2 px-4 font-normal block w-full whitespace-nowrap bg-transparent text-blueGray-700"
+          }
+        >
+          Meu Perfil
+        </Link>
+
       </div>
     </>
   );

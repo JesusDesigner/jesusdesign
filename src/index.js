@@ -16,6 +16,7 @@ import Landing from "views/Landing.js";
 import Profile from "views/Profile.js";
 import Servicos from "views/Servicos.js";
 import Blog from "views/Blog.js";
+import Portifolio from "views/Portifolio.js";
 import Index from "views/Index.js";
 
 ReactDOM.render(
@@ -28,6 +29,7 @@ ReactDOM.render(
       <Route path="/landing" exact component={Landing} />
       <Route path="/profile" exact component={Profile} />
       <Route path="/servicos" exact component={Servicos} />
+      <Route path="/portifolio" exact component={Portifolio} />
       <Route path="/blog" exact component={Blog} />
       <Route path="/" exact component={Index} />
       {/* add redirect for first page */}

@@ -199,9 +199,10 @@ Imersão de Inteligência emocional Método Evo Presencial
                   <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                     <i className="fas fa-rocket text-xl"></i>
                   </div>
-                  <h3 className="text-3xl font-semibold">DESENVOLVIMENTO</h3>
+                  <h3 className="text-3xl font-semibold">Crie seu Site</h3>
                   <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                    Na minha Home station, trabalho como freelancer.
+                  Ter um site facilita restringir um lugar com conteúdos específicos e observar a interação do seu público, impulsionando assim a sua marca.Conhecer seus consumidores, sua concorrência e as melhores técnicas para alavancar as vendas são só alguns passos. Logo, pensando em te ajudar nesta tarefa Para levar o seu negócio a outro patamar, é preciso criar estratégias 
+                  robustas, diferente das usadas anteriormente, guiando a marca para outro nível. 
                   </p>
                   <ul className="list-none mt-6">
                     <li className="py-2">
@@ -213,7 +214,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Carefully crafted components
+                            Potencializar as suas vendas
                           </h4>
                         </div>
                       </div>
@@ -227,7 +228,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Amazing page examples
+                            Tenha mais visbilidade
                           </h4>
                         </div>
                       </div>
@@ -241,7 +242,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                         </div>
                         <div>
                           <h4 className="text-blueGray-500">
-                            Dynamic components
+                            Sua empresa ganha visibilidade
                           </h4>
                         </div>
                       </div>
@@ -292,7 +293,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                       </div>
                       <div>
                         <h4 className="text-blueGray-500">
-                          Criação e gerenciamento de conteúdos para redes sociais.
+                          Criação de conteúdos para redes sociais.
                         </h4>
                       </div>
                     </div>
@@ -541,7 +542,7 @@ Imersão de Inteligência emocional Método Evo Presencial
             <div className="flex flex-wrap text-center justify-center">
               <div className="w-full lg:w-6/12 px-4">
               <i className="fas fa-rocket color-blue text-xl"></i>
-                <h2 className="text-4xl font-semibold text-white">
+                <h2 className="text-4xl font-bold text-white">
                 Crie seu Website!
                 </h2>
                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
@@ -554,7 +555,7 @@ Imersão de Inteligência emocional Método Evo Presencial
                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                   <i className="fas fa-medal text-xl"></i>
                 </div>
-                <h6 className="text-xl mt-5 font-semibold text-white">
+                <h6 className="text-xl mt-5 font-bold text-white">
                TENHA MAIS VISIBILIDADE
                 </h6>
                 <p className="mt-2 mb-4 text-blueGray-400">
